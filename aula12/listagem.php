@@ -15,7 +15,7 @@
         <div class="card-body">
             <h5 class="card-title">"<?php echo$noticia["titulo"];?>"</h5>
             <p class="card-text">"<?php echo$noticia["chamada"];?>"</p>
-            <a href="#" class="btn btn-primary">Ler mais</a>
+            <a href="ler.php?id=1"<?php echo $id; ?>" class="btn btn-primary">Ler mais</a>
         </div>
       </div>
     </div>
